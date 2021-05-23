@@ -30,7 +30,7 @@ import {
 
 const username='QScScRGIUH581BZOxzAoTrW76rN38GfgXd9QIFyz'
 
-const Box=(props)=>{
+const Lamp=(props)=>{
   const [state, setState] = useState(false);
   const [color, setColor] = useState('#afa2f5');
   const [inputcolor, setInputColor] = useState('');
@@ -100,9 +100,9 @@ export default App= () =>  {
 
   return (
     <ScrollView style={styles.list}>
-      <Box name="1" ip="10.198.120.60"/>
-      <Box name="2" ip="10.198.120.60"/>
-      <Box name="3" ip="10.198.120.60"/>
+      <Lamp name="1" ip="10.198.120.60"/>
+      <Lamp name="2" ip="10.198.120.60"/>
+      <Lamp name="3" ip="10.198.120.60"/>
     </ScrollView>
   );
 };
